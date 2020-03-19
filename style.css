@@ -1,0 +1,478 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: Poppins;
+    font-size: 16px;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* Navbar */
+
+.navbar {
+    /* height: 4rem; */
+    width: 100%;
+    background-color: #FFF;
+    display: flex;
+    color: #FFF;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,0.13);
+    justify-content: space-between;
+    padding: 0 3rem;
+    margin: 0;
+    overflow: hidden;
+}
+
+.navbar__logo {
+    list-style: none;
+}
+
+.center {
+    display: flex;
+    align-items: center;
+}
+
+.navbar__logo a {
+    color: #E11235;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.navbar ul {
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+
+.navbar ul li a {
+    display: block;
+    color: #828282;
+    font-size: 12px;
+    padding: 1.7rem 2rem;
+    border-bottom: 2px solid transparent;
+    font-weight: bold;
+}
+
+.navbar ul li a:hover {
+    color: #E11235;
+    border-bottom: 2px solid #E11235;
+}
+
+.illustrator {
+    position: relative;
+    width: 100%;
+    height: 462px;
+    padding: 0 5%;
+}
+
+.illustrator__image {
+    width: 100%;
+    height: 100%;
+}
+
+.btn--illustrator {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+
+}
+
+/* .navbar ul li a:visited {
+    color: #E11235;
+    border-bottom: 2px solid #E11235;
+} */
+
+.navbar--footer {
+    box-shadow: none;
+}
+
+.navbar--footer ul li a:hover {
+    color: #E11235;
+}
+
+.btn--small a{
+    display: block;
+    padding: .8rem 2.8rem;
+    background-color: #E11235;
+    font-size: 12px;
+    color: #FFF;
+    border-radius: 6px;
+    font-weight: bold;
+    margin-left: 4rem;
+    box-shadow: 0 3px 6px 0 rgba(0,0,0,0.13);
+}
+
+.preview__text{
+    width: 56rem;
+    height: 7rem;
+    text-align: center;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 60px;
+    margin: 5rem auto 0;
+}
+
+.red {
+    color: #E11235;
+}
+
+.preview__button {
+    width: 35rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 5rem auto;
+}
+
+.btn {
+    /* display: block; */
+    padding: 1.2rem 6.5rem;
+    color: #FFF;
+    font-weight: bold;
+    border-radius: 3px;
+}
+
+.btn--red {
+    background-color: #E11235;
+    box-shadow: 0 3px 6px 0 rgba(0,0,0,0.13);
+}
+
+.btn--play {
+    display: block;
+    margin-top: 1.2rem;
+    /* margin-left: 5rem; */
+    height: 35px;
+}
+
+.vertical--line {
+    width: 1px;
+    height: 4.5rem;
+    margin: 0 auto;
+    background-color: #E11235;
+}
+
+.center--text {
+    text-align: center;
+    margin: 3rem 0;
+    font-size: 24px;
+    color: #E11235;
+    font-weight: bold;
+}
+
+.service {
+    position: relative;
+}
+
+.snow_1 {
+    position: absolute;
+    /* left: -5%; */
+    top: 22%;
+    z-index: -100000;
+}
+
+.service__cards {
+    z-index: 100000;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 6rem 7rem;
+}
+.card {
+    width: 19rem;
+    height: 30rem;
+    text-align: center;
+    z-index: 10000;
+}
+
+.card .header {
+    margin: 2rem 0 3rem;
+    font-weight: bold;  
+}
+
+.card .body {
+    color: #4F4F4F;
+    font-size: 14px;
+    line-height: 35px
+}
+
+.snow_red {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    overflow: hidden;
+}
+
+.example__content{
+    margin-top: 6rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.boxs {
+    margin-left: 2rem;
+    margin-right: 4rem;
+}
+
+.box {
+    width: 20rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 1.4rem 4.4rem 1.4rem 1rem;
+    box-shadow: 0 3px 9px 0 rgba(35,39,47,0.6);
+    border-radius: 5px;
+    margin-bottom: 2rem;
+    /* border: 1px solid black; */
+}
+
+.box .num {
+    font-family: "Gilroy ExtraBold";
+    font-size: 30px;
+    line-height: 37px;
+    text-align: center;
+    margin-right: 1.7rem;
+    font-weight: bold;
+}
+
+.box .text {
+    font-size: 12px;
+    line-height: 17px;
+    padding-top: .4rem;
+    font-weight: bold;
+}
+
+.box--white-black {
+    background-color: #FFF;
+    color: #4F4F4F;
+}
+
+.box--red-white {
+    background-color: #E11235;
+    color: #FFF;
+}
+
+.content--text {
+    width: 21rem;
+    /* height: 40rem; */
+    font-size: 12px;
+    line-height: 40px;
+    margin-right: 2rem;
+    padding-top: 1rem;
+    color: #697694;
+}
+
+.content--text .title {
+    font-weight: bold;
+    margin-bottom: 3rem;
+    font-size: 14px;
+}
+
+.example__content img{
+    width: 28rem;
+    height: 23rem;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    box-shadow: 0 3px 6px 0 rgba(0,0,0,0.13);
+    margin-right: 0;
+}
+
+.dash_pro {
+    margin-top: 1rem;
+}
+
+.footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: 16px;
+    padding: 2rem 3rem;
+    color: #828282;
+}
+
+.gras {
+    font-weight: bold;
+}
+
+/* Buttton hamburger */
+
+.hamburger__logo {
+    display: inline-block;
+    margin: 1rem 2rem;
+}
+
+.hamburger__logo a {
+    color: #E11235;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.menu__respo {
+    display: none;
+    width: 100%;
+    /* height: 3rem; */
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,0.13);
+    position: fixed;
+    top: 0;
+    right: 0;
+    z-index: 100000000;
+    background: #FFF;
+}
+
+#hamburger, #hamburger-content {
+    display: inline;
+}
+
+#hamburger-button {
+    display: none;
+    cursor: pointer;
+    background: none;
+    border: none;
+    font-size: 30px;
+    padding: 0;
+    vertical-align: top;
+    /* line-height: 47px; */
+    float: right;
+    /* margin-right: 32px; */
+    color: black;
+    margin: .7rem 2rem 1rem 1rem;
+}
+
+#hamburger-overlay {
+    display: none;
+    position: fixed;
+    z-index: 10000000;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,.4);
+}
+
+#hamburger-sidebar {
+    display: none;
+    position: fixed;
+    width: 30%;
+    z-index: 20000000;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: #fff;
+    transform: translateX(-100%);
+    transition: transform .2s ease-out;
+}
+
+#hamburger-sidebar li {
+    display: block;
+}
+
+#hamburger-sidebar-header {
+     background: url();
+     background-size: cover;
+     height: 128px;
+}
+
+#hamburger-sidebar-body {
+    padding: 16px 8px;
+}
+
+#hamburger-sidebar-body {
+    content: ' ';
+    display: inline-block;
+    vertical-align: middle;
+    width: 24px;
+    width: 24px;
+    margin-right: 16px;
+    margin-bottom: 4px;
+}
+
+#hamburger-sidebar-body {
+    float: none;
+    display: block;
+    text-align: center;
+    margin-top: 16px;
+    height: auto;
+    padding: 10px;
+    line-height: inherit;
+}
+
+#hamburger-sidebar ul{
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+}
+
+.btn--resp {
+    width: 100%;
+    padding: 1rem;
+    display: block;
+    text-align: center;
+    background-color: #E11235;
+    color: #FFF;
+}
+
+.btn--resp a{
+    color: #FFF;
+}
+
+#hamburger-sidebar ul li{
+    width: 100%;
+    padding: 1rem;
+    border-bottom: 1px solid #828282;;
+    text-align: center;
+}
+
+#hamburger-sidebar ul li a{
+    color: #828282;
+    font-size: 12px;
+}
+
+.redsec {
+    position: relative;
+    background-color: #E11235;
+    text-align: center;
+    padding: 6rem 2rem 2rem 2rem;
+}
+
+.redsec .line_1{
+    position: absolute;
+    left: 0;
+    top: 30%;
+}
+
+.redsec .line_2{
+    position: absolute;
+    right: 0;
+    top: 30%;
+}
+
+.redsec h2{
+    width: 50%;
+    margin: 3rem auto;
+    line-height: 3rem;
+    color: #FFF;
+}
+
+.btn--white a{
+    margin: 2rem;
+}
+
+.btn--white a{
+    display: inline-block;
+    padding: 1.3rem 6rem;
+    background-color: #FFF;
+    font-size: 12px;
+    color: #E11235;
+    border-radius: 4px;
+    font-weight: bold;
+    margin-left: 4rem;
+    box-shadow: 0 3px 6px 0 rgba(0,0,0,0.13);
+}

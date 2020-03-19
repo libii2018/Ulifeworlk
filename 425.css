@@ -1,0 +1,48 @@
+.navbar {
+    display: none;
+}
+
+.navbar--footer {
+    display: none;
+}
+
+.navbar ul{
+    flex-direction: column;
+}
+
+.preview__text {
+    width: 24rem;
+    font-size: 16px;
+    line-height: 37px;
+}
+.preview__button {
+    flex-direction: column;
+    align-items: center;
+    width: 18rem;
+}
+
+
+
+.snow_1 {
+    width: 25rem;
+}
+
+.content--text {
+    margin: 2rem 2rem;
+}
+
+
+.boxs {
+    margin-left: 0;
+    margin-right: 0;
+    margin: 1rem auto;
+}
+
+
+.redsec .line_1{
+    display: none;
+}
+
+.redsec .line_2{
+    display: none;
+}
