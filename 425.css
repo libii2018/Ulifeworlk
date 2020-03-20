@@ -46,3 +46,29 @@
 .redsec .line_2{
     display: none;
 }
+
+.snow_1 {
+    width: 11rem;
+}
+
+.preview__text {
+    width: 22rem;
+    font-size: 14px;
+}
+
+.redsec h2 {
+    font-size: 12px;
+    margin: 1rem auto;
+    line-height: 2rem;
+}
+
+.btn--white a {
+    padding: 1rem 4rem;
+    font-size: 11px;
+    margin: 1rem auto;
+}
+
+.redsec {
+    padding: 3rem 2rem 2rem 2rem;
+}
+
