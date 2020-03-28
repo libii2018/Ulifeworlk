@@ -50,6 +50,7 @@ body {
     border-bottom-left-radius: 0;
 }
 
+
 .menu__respo {
     display: block;
 }
@@ -65,4 +66,60 @@ body {
 
 .hamburger-activated #hamburger-sidebar {
     transform: translateX(0);
+}
+
+
+
+.content--image {
+    width: 100% !important;
+}
+.presentation-cv {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: space-between;
+}
+
+.presentation-cv__test {
+    margin: 2rem auto !important;
+    text-align: center;
+    padding: 0 !important;
+}
+
+.example__content img {
+    width: 100% !important;
+}
+
+
+.create-cv {
+    flex-direction: column-reverse;
+}
+
+.create-cv__text {
+    width: 100%;
+    padding: 0;
+    text-align: center;
+    padding: 4rem 6rem;
+}
+
+.create-cv__image {
+    width: 100% !important;
+}
+
+.create-cv__image img{
+    width: 100% !important;
+    height: 100%;
+}
+
+.desc-cv___content-text {
+    padding: 2rem 0 0 3rem;
+}
+
+.desc-cv___content-image {
+    height: 400.79px;
+    width: 430px;
+}
+
+.desc-cv___content-text p {
+    font-size: 11px;
+    line-height: 30px;
 }

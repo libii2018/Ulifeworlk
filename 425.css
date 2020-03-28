@@ -72,3 +72,66 @@
     padding: 3rem 2rem 2rem 2rem;
 }
 
+.presentation-cv__test h2 {
+    width: 313.25px;
+    font-size: 1.3rem;
+    line-height: 47px;
+    margin: 5rem 0;
+}
+
+.create-cv__text h2 {
+    font-size: 14px;
+    line-height: 45px;
+}
+
+.btn {
+    padding: 1.2rem 4.5rem;
+}
+
+.create-cv__text h2 {
+    font-size: 10px;
+    line-height: 29px;
+}
+
+.btn {
+    padding: 1.2rem 2.5rem;
+}
+
+.btn--red {
+    font-size: 10px;
+}
+
+/* .create-cv__image img{
+    width: 100px !important;
+    height: 100px !important;
+} */
+
+
+.desc-cv___content {
+    flex-direction: column-reverse;
+}
+
+.desc-cv___content-image {
+    width: 100%;
+    height: 100%;
+}
+
+.desc-cv___content-text {
+    padding: 0 3rem;
+}
+
+.desc-cv___content-text p {
+    width: 100% !important;
+}
+
+.desc-cv___content-text {
+    width: 100% !important;
+}
+
+.desc-cv___content-text h3 {
+    margin-top: 3rem;
+}
+
+.unk {
+    padding: 3rem 2rem !important;
+}

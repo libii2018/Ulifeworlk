@@ -141,6 +141,7 @@ a {
 }
 
 .btn--red {
+    font-size: 14px;
     background-color: #E11235;
     box-shadow: 0 3px 6px 0 rgba(0,0,0,0.13);
 }
@@ -475,4 +476,139 @@ a {
     font-weight: bold;
     margin-left: 4rem;
     box-shadow: 0 3px 6px 0 rgba(0,0,0,0.13);
+}
+
+.presentation-cv {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.presentation-cv__test {
+    padding: 7rem 0rem 7rem 11rem;
+}
+
+.presentation-cv__test h2{
+    width: 394.25px;
+    margin-bottom: 4rem;
+    color: #4F4F4F;
+    font-size: 2rem;
+    font-weight: bold;
+    line-height: 60px;
+}
+
+.presentation-cv__image {
+    margin: 0;
+}
+
+.content--image {
+    position: relative;
+    height: 312.5px;
+    width: 700px;
+    margin-top: 10.3rem;
+}
+
+.content--image img{
+   width: 100%;
+   height: 100%;
+}
+
+.btn--presentation-cv {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%)
+}
+
+.create-cv {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 3rem 0;
+}
+
+.create-cv__text {
+    width: 50%;
+    padding: 4rem 0rem 4rem 6rem;
+}
+
+.create-cv__text h2{
+    color: #333;
+    font-size: 24px;
+    line-height: 50px;
+    margin-bottom: 3rem;
+}
+
+.create-cv__image {
+    width: 50%;
+    overflow: hidden;
+}
+
+.create-cv__image img{
+    width: 100%;
+    height: 100%;
+} 
+
+.desc-cv h2{
+    color: #E11235;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 34px;
+    text-align: center;
+    margin: 3rem  0 1.5rem;
+}
+
+.desc-cv___content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-bottom: 8rem;
+}
+
+.desc-cv___content-text {
+    width: 50%;
+    padding: 6rem 0 0 6rem;
+}
+
+.desc-cv___content-text h3{
+    margin-bottom: 2rem;
+}
+
+.desc-cv___content-text p{
+    color: #697694;
+    font-size: 12px;
+    line-height: 40px;
+    width: 81%;
+
+}
+
+.desc-cv___content-image {
+    height: 421.79px;
+    width: 455px;
+    border-radius: 5px;
+    box-shadow: 0 3px 30px 0 rgba(0,0,0,0.13);
+}
+
+.desc-cv___content-image img {
+    width: 100%;
+    height: 100%;
+}
+
+.reverse {
+    flex-direction: row-reverse;
+}
+
+.unk {
+    text-align: center;
+}
+
+.unk h2 {
+    margin-top: 15rem;
+    margin-bottom: 4rem;
+    color: #4F4F4F;
+    font-size: 12px;
+}
+
+.unk {
+    padding-bottom: 5rem;
 }
